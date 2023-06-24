@@ -1,0 +1,26 @@
+#配置版本请勿更改
+config-version: 0
+
+prefix: "&bCustomPay &8>>"
+#易支付配置
+pay-url: ""
+pay-pid: 1000
+pay-key: ""
+#pay-mode 支持的列表请自行查看易支付接口文档
+pay-mode: "wxpay"
+
+#充值 RMB兑点券 比例
+ratio: 10
+order-name: "玩家充值-%s"
+
+title-help: "\n&7/custompay pay <金额> - 进行充值\n/custompay info - 获取插件信息"
+title-pay-less0: "&c请输入一个大于0的整数"
+title-pay-toomore: "&c你认真的吗?"
+title-pay-err-create: "&c异常:发起订单未成功"
+title-pay-err-throw1: "&c异常:内部错误 Thread.sleep 抛出异常"
+title-pay-clickpay: "&a请点击此处充值: &b&n%s"
+#title-pay-sucess: "&a充值成功!花费 %money RMB充值 %points 点券"
+title-pay-sucess: "&a充值成功!"
+title-pay-timeout: "&c支付超时(此时请勿付款)"
+title-info: "&b作者: %s"
+title-console-nosupport: "&c该命令不支持在控制台上使用 : ("

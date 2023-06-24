@@ -1,0 +1,10 @@
+name: CustomPay
+version: '${version}'
+main: feitu.plugin.custompay.Main
+api-version: '1.19'
+authors: [ CatX_feitu ]
+depend:
+
+commands:
+  custompay:
+  cpay:
